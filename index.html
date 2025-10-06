@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ACH PUB - الصّفحة الرّئيسية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta name="description" content="ACH PUB - روابط التواصل وطرق الإتصال">
+  <style>
+    :root{--accent:#1a73e8;--bg:#0f1724;--card:#0b1220}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:'Cairo',sans-serif;background:linear-gradient(180deg,#0b1220 0%, #071024 100%);color:#e6eef8;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
+    .container{width:100%;max-width:980px;background:linear-gradient(180deg,rgba(255,255,255,0.03),rgba(255,255,255,0.02));border-radius:16px;overflow:hidden;box-shadow:0 10px 30px rgba(2,6,23,0.7)}
+    .hero{display:grid;grid-template-columns:1fr;gap:0}
+    .hero-top{position:relative;padding:36px 24px;text-align:center;background-size:cover;background-position:center}
+    .hero-top::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(2,6,23,0.2),rgba(2,6,23,0.6))}
+    .logo-wrap{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:12px}
+    .logo{width:160px;height:160px;border-radius:16px;object-fit:cover;border:4px solid rgba(255,255,255,0.06);box-shadow:0 8px 30px rgba(2,6,23,0.8)}
+    h1{margin:0;font-size:28px}
+    p.lead{margin:0;opacity:0.85}
+    .links{display:flex;flex-direction:column;gap:12px;padding:22px}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:12px;text-decoration:none;font-weight:600;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.03);color:inherit}
+    .btn .icon{width:20px;text-align:center}
+    .socials{display:flex;gap:10px;justify-content:center;padding:18px}
+    .socials a{width:48px;height:48px;border-radius:12px;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.03)}
+    .contact{display:flex;flex-direction:column;gap:8px;padding:18px;border-top:1px dashed rgba(255,255,255,0.03)}
+    .small{font-size:13px;opacity:0.8}
+    footer{padding:12px 18px;text-align:center;font-size:13px;opacity:0.8}
+    @media(min-width:720px){.hero{grid-template-columns:360px 1fr}.hero-top{padding:48px}.logo{width:220px;height:220px}.links{padding:32px}}
+  </style>
+</head>
+<body>
+  <div class="container" role="region" aria-label="ACH PUB site">
+    <div class="hero">
+      <!-- left column: image / branding -->
+      <div class="hero-top" style="background-image:url('https://i.ibb.co/r2VT2LcM/IMG-20251005-WA0000.jpg')">
+        <div class="logo-wrap">
+          <img class="logo" src="https://i.ibb.co/r2VT2LcM/IMG-20251005-WA0000.jpg" alt="ACH PUB logo">
+          <h1>ACH PUB</h1>
+          <p class="lead">اعلانات, تصميم, تواصل</p>
+        </div>
+      </div>
+
+      <!-- right column: links -->
+      <div>
+        <div class="links">
+          <!-- Facebook -->
+          <a class="btn" href="https://www.facebook.com/profile.php?id=61580334377906" target="_blank" rel="noreferrer noopener">
+            <span class="icon"><i class="fab fa-facebook-f" aria-hidden="true"></i></span>
+            حساب فيسبوك
+          </a>
+
+          <!-- Instagram -->
+          <a class="btn" href="https://www.instagram.com/ach.pub" target="_blank" rel="noreferrer noopener">
+            <span class="icon"><i class="fab fa-instagram" aria-hidden="true"></i></span>
+            حساب إنستغرام
+          </a>
+
+          <!-- TikTok -->
+          <a class="btn" href="https://www.tiktok.com/@ach_pub" target="_blank" rel="noreferrer noopener">
+            <span class="icon"><i class="fab fa-tiktok" aria-hidden="true"></i></span>
+            حساب تيك توك
+          </a>
+
+          <!-- WhatsApp (numbers provided) -->
+          <a class="btn" href="https://wa.me/213555109604" target="_blank" rel="noreferrer noopener">
+            <span class="icon"><i class="fab fa-whatsapp" aria-hidden="true"></i></span>
+            تواصل عبر واتساب: 0555 109 604
+          </a>
+
+          <a class="btn" href="https://wa.me/213665415229" target="_blank" rel="noreferrer noopener">
+            <span class="icon"><i class="fab fa-whatsapp" aria-hidden="true"></i></span>
+            تواصل عبر واتساب: 0665 415 229
+          </a>
+
+          <!-- Phone links -->
+          <a class="btn" href="tel:+213555109604">
+            <span class="icon"><i class="fas fa-phone" aria-hidden="true"></i></span>
+            اتصل: 0555 109 604
+          </a>
+
+          <a class="btn" href="tel:+213665415229">
+            <span class="icon"><i class="fas fa-phone" aria-hidden="true"></i></span>
+            اتصل: 0665 415 229
+          </a>
+
+        </div>
+
+        <div class="socials" aria-hidden="false">
+          <a href="https://www.facebook.com/profile.php?id=61580334377906" target="_blank" rel="noreferrer noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/ach.pub" target="_blank" rel="noreferrer noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@ach_pub" target="_blank" rel="noreferrer noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a href="https://wa.me/213555109604" target="_blank" rel="noreferrer noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+
+        <div class="contact">
+          <div class="small"><strong>عنوان:</strong> برج البحري</div>
+          <div class="small"><strong>ملاحظة:</strong> نسعى دائما لتطلعاتكم ونرقى دائما للافضل فشعارنا هو: لمستك....هي توقيعنا🎨.</div>
+        </div>
+      </div>
+    </div>
+    <footer>© ACH PUB</footer>
+  </div>
+</body>
+</html>
+</body>
+</html>
